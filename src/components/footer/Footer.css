@@ -1,0 +1,31 @@
+/* #root footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #62CDFF;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+#root footer p {
+    width: 50%;
+    padding-left: 5%;
+    font-size: 15px;
+    font-family: 'Tilt Warp', cursive;
+}
+
+#root footer div {
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    gap: 5%;
+    padding-right: 10%;
+}
+
+#root footer div a {
+    color: black;
+    text-decoration: none;
+} */
