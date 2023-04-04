@@ -1,12 +1,11 @@
+import Tour from './tour/Tour';
 
 function Tours(props){
-    
+  
     return (
-        <div>
-               <h3>{props.name}</h3>
-               <img src={props.image} alt={props.name}/> 
-               <hr></hr>
-        </div>
+       <div>
+       <Tour id = {props.id} name = {props.name} image = {props.image}/>
+       </div>
     );
 }
 

@@ -1,22 +1,20 @@
-import Header from '../header/Header';
-import Tours from '../tours/Tours';
-import Footer from '../footer/Footer';
+import Header from "../header/Header";
+import Tours from "../tours/Tours";
+import Footer from "../footer/Footer";
+
 function Home(props) {
-    const data = props.data;
-    return (
+  const data = props.data;
+  return (
     <>
-    <Header/>
-    { 
-        data.map(ele => {
-            return ( 
-                <Tours name = {ele.name} image = {ele.image}/>
-            )
-        }
-        )
-    }
-    <Footer/>
+      <Header/>
+      <div>
+        {data.map((ele) => {
+          return <Tours id = {ele.id} name = {ele.name} image = {ele.image}/>;
+        })}
+      </div>
+      <Footer/>
     </>
-    );
+  );
 }
 
 export default Home;
