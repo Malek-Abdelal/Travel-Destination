@@ -4,7 +4,6 @@ function Header() {
   return (
     <header>
       <NavBar/>
-      {/* <h1>excited to start learning React</h1> */}
     </header>
   );
 }

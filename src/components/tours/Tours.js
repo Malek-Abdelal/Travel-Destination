@@ -3,8 +3,14 @@ import Tour from './tour/Tour';
 function Tours(props){
   
     return (
-       <div>
-       <Tour id = {props.id} name = {props.name} image = {props.image}/>
+        <div>
+            {props.data.map((ele) => {
+                return (
+                    <div key = {ele.id}>
+                        <Tour id = {ele.id} name = {ele.name} image = {ele.image}/>
+                    </div>
+                );
+            })}
        </div>
     );
 }

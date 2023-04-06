@@ -9,6 +9,7 @@ const data = require('../../data/data.json');
 function TourDetails (){
     
     let [showLines, setShowLines] = useState(false);
+    
     function seeLinesHandler (){
         setShowLines(!showLines);
     }
@@ -38,7 +39,6 @@ function TourDetails (){
         </div>
         <Footer/>
         </>
-
     );
 }
 
