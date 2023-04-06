@@ -10,7 +10,7 @@ const data = require('./data/data.json');
 
 function App() {
 
-  return (
+  return (  
     <>
     <Header/>
     <div>
