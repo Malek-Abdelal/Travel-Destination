@@ -1,9 +1,11 @@
-function Header (){
-    return (
-        <>
-        <h1>excited to start learning React</h1>
-        </>
-    )
+import NavBar from "../navbar/Navbar";
+import './Header.css';
+function Header() {
+  return (
+    <header>
+      <NavBar/>
+    </header>
+  );
 }
 
 export default Header;

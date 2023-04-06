@@ -1,0 +1,14 @@
+#link div {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+
+div img{
+    height: 40%;
+    width: 50%;
+}
