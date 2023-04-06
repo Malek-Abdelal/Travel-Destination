@@ -1,12 +1,9 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
-import Footer from "../footer/Footer";
-import Header from "../header/Header";
 const data = require('../../data/data.json');
 
 
-
-function TourDetails (){
+export default function TourDetails (){
     
     let [showLines, setShowLines] = useState(false);
     
@@ -39,5 +36,3 @@ function TourDetails (){
         </>
     );
 }
-
-export default TourDetails;
