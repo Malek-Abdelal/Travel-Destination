@@ -30,14 +30,12 @@ function TourDetails (){
     }
         return(
         <>
-        <Header/>
         <div>
             <p>{`City : ${renderTour(id).name}`}</p>
             <p >{`About : ${linesLengthHandler()}`}<span style={{cursor: "pointer"}} onClick={seeLinesHandler}>, see {linesStateHandler()}</span></p>
             <img src = {`${renderTour(id).image}`} alt="City img"/>
             <p>{`Average price to visit : ${renderTour(id).price}`}</p>
         </div>
-        <Footer/>
         </>
     );
 }
